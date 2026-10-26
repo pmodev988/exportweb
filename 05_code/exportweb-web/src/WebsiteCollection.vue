@@ -1,0 +1,10 @@
+<script setup lang="ts">
+import {computed,ref,watch} from 'vue';
+import type {Page,Presentation} from './model';
+const props=defineProps<{entries:Page[];display:Presentation;locale:string}>(),emit=defineEmits<{select:[id:string]}>();
+const page=ref(0),active=ref(0),size=computed(()=>props.display.pagination?props.display.pageSize:Math.max(1,props.entries.length));
+const pages=computed(()=>Math.max(1,Math.ceil(props.entries.length/size.value))),slice=computed(()=>props.entries.slice(page.value*size.value,(page.value+1)*size.value));
+watch(()=>[props.entries,props.display],()=>{page.value=0;active.value=0;});
+function next(direction:number){page.value=Math.max(0,Math.min(pages.value-1,page.value+direction));active.value=0;}
+</script>
+<template><div class="sw-collection" :data-mode="display.mode"><div class="sw-collection-controls"><template v-if="display.mode==='tabs'"><button v-for="(entry,i) in slice" :key="entry.id" :aria-pressed="active===i" @click="active=i">{{entry.content[locale]?.title||entry.title}}</button></template><template v-if="display.mode==='carousel'"><button :disabled="!active" @click="active--">上一项</button><span>{{slice.length?active+1:0}} / {{slice.length}}</span><button :disabled="active>=slice.length-1" @click="active++">下一项</button></template></div><div class="sw-items"><article v-for="(entry,i) in slice" v-show="display.mode==='list'||active===i" :key="entry.id" class="sw-collection-item"><img v-if="entry.entry?.image&&display.mode!=='list'" :src="entry.entry.image" :alt="entry.content[locale]?.title||entry.title"><div><time v-if="display.mode==='list'">{{entry.entry?.date}}</time><h3>{{entry.content[locale]?.title||entry.title}}</h3><p v-if="display.mode!=='list'">{{entry.entry?.summary}}</p><button @click="emit('select',entry.id)">查看详情</button></div></article><p v-if="!entries.length" class="empty">暂无内容。</p></div><div v-if="pages>1" class="sw-collection-controls"><button :disabled="!page" @click="next(-1)">上一页</button><span>第 {{page+1}} / {{pages}} 页</span><button :disabled="page===pages-1" @click="next(1)">下一页</button></div></div></template>

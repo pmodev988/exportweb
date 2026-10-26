@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.docx binary
+*.xlsx binary
+*.pdf binary
+# Preserve byte-level hashes of archived originals across checkout platforms.
+14_archive/** -text
+
+# Keep vendored assets byte-identical to their provenance checksums.
+03_design/ux/prototype/ai-acquisition/vendor/** -text

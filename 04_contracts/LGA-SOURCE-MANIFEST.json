@@ -1,0 +1,765 @@
+{
+  "sourceCommit": "8f3c988fbecc8fb8051fbbf3652a11fbccce1dfb",
+  "files": [
+    {
+      "source": ".gitignore",
+      "target": ".gitignore",
+      "sourceSha256": "b5bcd02e5694ae365929f9530bdb097207ef1797b677749952098896cd1af137"
+    },
+    {
+      "source": ".gitattributes",
+      "target": ".gitattributes",
+      "sourceSha256": "5d3fc8621a35000236eba3559778ccc0bb8d7edb836a8a4d999d81bcdff173cb"
+    },
+    {
+      "source": "05_code/shared-experience/billion-components.css",
+      "target": "05_code/shared-experience/billion-components.css",
+      "sourceSha256": "d73e19e09136105c46826730c03e8f71309e3a68452917df69d0d7e789386197"
+    },
+    {
+      "source": "05_code/shared-experience/billion-logo.png",
+      "target": "05_code/shared-experience/billion-logo.png",
+      "sourceSha256": "805c160c46928179ccfe275bc3a0e039f00269b9d4001a6202fd3ead339824de"
+    },
+    {
+      "source": "05_code/shared-experience/billion-resolved-tokens.json",
+      "target": "05_code/shared-experience/billion-resolved-tokens.json",
+      "sourceSha256": "e2ff0253310467c2db2d0c66639cfb58269a91fb4590f0bd21e5c1697007c270"
+    },
+    {
+      "source": "05_code/shared-experience/billion-tokens.css",
+      "target": "05_code/shared-experience/billion-tokens.css",
+      "sourceSha256": "a269b39c5bd9e9e036ce14928d7eb0435a6d76b7d436545672c1d0964a006b39"
+    },
+    {
+      "source": "05_code/shared-experience/billion-tokens.json",
+      "target": "05_code/shared-experience/billion-tokens.json",
+      "sourceSha256": "09bf0a7ae4d5ae1e96310f1ded33349937cc061813b53f3fbaf26c217ca9381e"
+    },
+    {
+      "source": "05_code/shared-experience/billion-ui.css",
+      "target": "05_code/shared-experience/billion-ui.css",
+      "sourceSha256": "537b608e5ee313665e1aec310c6833a80d70a1bf2df17b7f703ee890f5c575d1"
+    },
+    {
+      "source": "05_code/shared-experience/generate-theme.py",
+      "target": "05_code/shared-experience/generate-theme.py",
+      "sourceSha256": "b2fb7bb424fc06d4b81b8b76af01df285fac15dc8937554598198d5f20f3b1e5"
+    },
+    {
+      "source": "05_code/shared-experience/manifest.json",
+      "target": "05_code/shared-experience/manifest.json",
+      "sourceSha256": "f93b0076a6058fd8bd793a84fef91a12b009271f39e9a82e16c12c8470fd669b"
+    },
+    {
+      "source": "05_code/shared-experience/README.html",
+      "target": "05_code/shared-experience/README.html",
+      "sourceSha256": "ff5632e8e2cbfd081ab7145e5f2550fc9c4de1cc3327b2c2c9649345b4375bfd"
+    },
+    {
+      "source": "05_code/shared-experience/README.md",
+      "target": "05_code/shared-experience/README.md",
+      "sourceSha256": "6c9e02487dfe67599f2fd21a3ccbd62c9dd7ca9c78e141236b5a4857eb4aa1f9"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/AiTasks.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/AiTasks.java",
+      "sourceSha256": "06f262881a1a118df6fde05fb1787f5cd3d040570aeb58b83c570114a587a1a9"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/BusinessRecords.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/BusinessRecords.java",
+      "sourceSha256": "385a7fe9670af060d04b260bf40929fd6f284180d6b7aaf5f0f04331c23d17fc"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/BusinessWorkspace.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/BusinessWorkspace.java",
+      "sourceSha256": "8b977054ed2c5eba780d081d0910f3be8ff92f91034d1b63ae0968ccb5c2f91a"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/ContentHtml.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/ContentHtml.java",
+      "sourceSha256": "db4000d390ae76dbbad43fe592b204234d0bd02c05dbabfd79f80460df701900"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/DatabaseGuard.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/DatabaseGuard.java",
+      "sourceSha256": "4518dd4467433944802f6e281503a976d84d55718bfee4e4a0e62720dd869608"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/EntryAuthorization.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/EntryAuthorization.java",
+      "sourceSha256": "d2c5600db9560dbe04ee26525ca2052a98ff470290d3097b4922eccc109b4e0e"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/ImportedContent.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/ImportedContent.java",
+      "sourceSha256": "512c704cbddfd3d7e5cd1b07d30d8201279d6b175d627f1fb058a85b386304d2"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/Jobs.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/Jobs.java",
+      "sourceSha256": "459e06b07fc1e95e3de2f00376e315bbc89db9d54233dbd854e62cff0394d498"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/MediaObjects.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/MediaObjects.java",
+      "sourceSha256": "6ae57d4315409fe8b1b6c420505e18ea77a094de6f0a1f0cda9750821142d517"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/OpsAccess.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/OpsAccess.java",
+      "sourceSha256": "e010357c23fd6b6ab68f9a14fe5a5885fb3aaa705e7cce07f72fc1d30d3b6280"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/OrganizationEntryFilter.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/OrganizationEntryFilter.java",
+      "sourceSha256": "68c9fdfa5780a2b1085459d7339cd027f507c3362e53a468a63d5fd452d9be74"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/Project.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/Project.java",
+      "sourceSha256": "003f85aaf30655d11d0bae2d21b359729fee02ec1d546e1b4b5cb525715d9eef"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/ProjectMapper.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/ProjectMapper.java",
+      "sourceSha256": "c13b940933eccb99466b034e224c7ad34f7dea3a1a8dac8545f9387bea109fc3"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/ProjectStore.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/ProjectStore.java",
+      "sourceSha256": "787880fa8f856092e5bf2f05dbcf1f927368615195d7086ba673cc4d93a911c8"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/PublicWebsiteReader.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/PublicWebsiteReader.java",
+      "sourceSha256": "ee3fc12c9bccbafef2e84fa98e4ac7690a33b603acc0c19005de3e74d59e94fb"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/RequestTrace.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/RequestTrace.java",
+      "sourceSha256": "d0dc4c04c702a46d7978d062f43b9b1610e61d3d1a64a07dbde089488a1cf636"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/Security.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/Security.java",
+      "sourceSha256": "763144608d711a9ec78c9fe5cc1a8ee5de612c96a7e316a306ace0db8caf45d7"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/SiteHtml.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/SiteHtml.java",
+      "sourceSha256": "84e78acd5f4dd44c8c06f5e3e2493c8d8056848b663dcc5494ac18195712b357"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/SiteMetadata.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/SiteMetadata.java",
+      "sourceSha256": "88b3151558b3202d5008127e6a7ccf753f9725bb7ff8df62470f2a345d23d81a"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/SiteSettings.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/SiteSettings.java",
+      "sourceSha256": "90d47c8417a2d13f6590ceb0c3fc98fd18a3678750d29e34549fb2921b039dec"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/SystemSettings.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/SystemSettings.java",
+      "sourceSha256": "8790fa624b3abe825c5c390db481f969619b3f56fcc2996d9f6d32ecdb4471f7"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/ThemeCatalog.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/ThemeCatalog.java",
+      "sourceSha256": "465ad18f10e736066ef7650ff5a0a622168a64fab400e6a12703a92413a75c93"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/TradeDocuments.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/TradeDocuments.java",
+      "sourceSha256": "c88eca1898485c319a6427f65799a97154450404a3846667eb9fe4e091add95d"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/WebsiteImport.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/WebsiteImport.java",
+      "sourceSha256": "f5458fff6aa9c4dea29eac773af83089461b8bdd6994254724d6866594ca506f"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/WebsiteNavigation.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/WebsiteNavigation.java",
+      "sourceSha256": "9008a35f54d54139d409d4ae97ec779a19b0bc701e48bd97a7685b595eaae879"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/WebsitePackage.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/WebsitePackage.java",
+      "sourceSha256": "bad79e6039ddd5bdd6ddb73874838c462bac13e6ef3359f98e57ce87034f618b"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/Websites.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/Websites.java",
+      "sourceSha256": "e7d9cb85bd0a431ba5b4d9cc8d026ad4af0953bbde2c284458447a69d7453253"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/WorkspaceData.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/WorkspaceData.java",
+      "sourceSha256": "25dbbd1767a619f363be0156c9982557056ff9908a19cb8dd2c59f74e41ee3bc"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/BusinessApi.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/BusinessApi.java",
+      "sourceSha256": "c889a4a94422153678632e7d4d9b10ff01c98665b1c2dc75ab0cd515db5f1588"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/JobWorker.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/JobWorker.java",
+      "sourceSha256": "76a6af6e52107cdc73b7d21e8a3438b13b4fd164f42c8781717974766a615ddf"
+    },
+    {
+      "source": "05_code/lga-api/src/main/java/dev/pmo/lga/LgaApplication.java",
+      "target": "05_code/exportweb-api/src/main/java/dev/pmo/exportweb/ExportWebApplication.java",
+      "sourceSha256": "53aacc8927510eede7469c9806cc32b604b87aaf6d662e941c79d1c0c795e15f"
+    },
+    {
+      "source": "05_code/lga-api/pom.xml",
+      "target": "05_code/exportweb-api/pom.xml",
+      "sourceSha256": "6d3ab156f6db9709b406b08bcadf58b1d28edd28d60f6f5213b383962c125929"
+    },
+    {
+      "source": "05_code/lga-api/src/main/resources/application.properties",
+      "target": "05_code/exportweb-api/src/main/resources/application.properties",
+      "sourceSha256": "07348d55b39ead73feaf8d8fbc20413a469906e79d16e743ac0c09571dd064ab"
+    },
+    {
+      "source": "05_code/lga-api/src/main/resources/application-worker.properties",
+      "target": "05_code/exportweb-api/src/main/resources/application-worker.properties",
+      "sourceSha256": "e12abf1f48133a06b8bfacd570e73a9cba6d0202080339c5a9bc3d6dc7e88392"
+    },
+    {
+      "source": "05_code/lga-api/src/main/resources/website-package-readme.txt",
+      "target": "05_code/exportweb-api/src/main/resources/website-package-readme.txt",
+      "sourceSha256": "4254e42538236ccdb8508185639fb468841980c23befc196b90e47f550c71705"
+    },
+    {
+      "source": "05_code/lga-api/src/main/resources/db/migration/V1__lga_business.sql",
+      "target": "05_code/exportweb-api/src/main/resources/db/migration/V1__exportweb_business.sql",
+      "sourceSha256": "000eaaa127909569c2af81d96c7c853fcdb13b678a46e760efbcca10bc2e0ad3"
+    },
+    {
+      "source": "05_code/lga-api/src/main/resources/db/migration/V2__lga_tasks.sql",
+      "target": "05_code/exportweb-api/src/main/resources/db/migration/V2__exportweb_tasks.sql",
+      "sourceSha256": "a9b5a8d4fb790760aab621dac64afc50417367f2b6b1ab162c91faf2dcc135f9"
+    },
+    {
+      "source": "05_code/lga-api/src/main/resources/db/migration/V3__multiple_website_publications.sql",
+      "target": "05_code/exportweb-api/src/main/resources/db/migration/V3__multiple_website_publications.sql",
+      "sourceSha256": "5b8b48fbdf5d2d30887e09ba9e5f8495318cd41083e1f7abf270c6c2e5112726"
+    },
+    {
+      "source": "05_code/lga-api/src/main/resources/db/migration/V4__website_versions_and_named_media.sql",
+      "target": "05_code/exportweb-api/src/main/resources/db/migration/V4__website_versions_and_named_media.sql",
+      "sourceSha256": "adf2e8f3d3b3be7bd571f6b73ccc4ebb22aee75d4f452f29aff3a5b3d0a51884"
+    },
+    {
+      "source": "05_code/lga-api/src/main/resources/db/migration/V5__article_jobs.sql",
+      "target": "05_code/exportweb-api/src/main/resources/db/migration/V5__article_jobs.sql",
+      "sourceSha256": "dbcc27cefd7f1e2b873c2551a0d4803036ae071b854c232bc645cf41e6b6de70"
+    },
+    {
+      "source": "05_code/lga-web/src/App.vue",
+      "target": "05_code/exportweb-web/src/App.vue",
+      "sourceSha256": "974b17b91648fa70b8d1ed81a654991aa8dea4d72431a3ee892fb15d08ff8fd2"
+    },
+    {
+      "source": "05_code/lga-web/src/AppearanceSettings.vue",
+      "target": "05_code/exportweb-web/src/AppearanceSettings.vue",
+      "sourceSha256": "60537429caa237611f0ee2034d5cd275de9dd389ef248ef912103c7f6aeb5361"
+    },
+    {
+      "source": "05_code/lga-web/src/CompanyPlan.vue",
+      "target": "05_code/exportweb-web/src/CompanyPlan.vue",
+      "sourceSha256": "fe84ff48ae6e459de5fad98200d611fcf9776007ef1d4d0d988286b3b887d542"
+    },
+    {
+      "source": "05_code/lga-web/src/DetailEditor.vue",
+      "target": "05_code/exportweb-web/src/DetailEditor.vue",
+      "sourceSha256": "5fd3049a165c15a046bda1234cc13df0af4f3984877dcbf6d97ee704607ffb93"
+    },
+    {
+      "source": "05_code/lga-web/src/FolderIcon.vue",
+      "target": "05_code/exportweb-web/src/FolderIcon.vue",
+      "sourceSha256": "0e6f12482eb4f17f3d3a74fbcc453d5569c3438d917a48b0384724b2da579ef9"
+    },
+    {
+      "source": "05_code/lga-web/src/MenuDetailLinks.vue",
+      "target": "05_code/exportweb-web/src/MenuDetailLinks.vue",
+      "sourceSha256": "58d875c950a856cf1ed78eba6d6a738178d8e0902065e1fab8c36dfa64f963d1"
+    },
+    {
+      "source": "05_code/lga-web/src/SafeContent.vue",
+      "target": "05_code/exportweb-web/src/SafeContent.vue",
+      "sourceSha256": "adb51c0118c5d69ef818bb013c3e306b01cad3bd70c5f0607f78da778b644f97"
+    },
+    {
+      "source": "05_code/lga-web/src/SharedDetailIcon.vue",
+      "target": "05_code/exportweb-web/src/SharedDetailIcon.vue",
+      "sourceSha256": "ebe21c4c4f50a605b8e258d0a82995fc4b40341a5b4b31c20daeb03c6c52f1af"
+    },
+    {
+      "source": "05_code/lga-web/src/SiteArticles.vue",
+      "target": "05_code/exportweb-web/src/SiteArticles.vue",
+      "sourceSha256": "199a8b454f0f8c691c842d47df2d0f21af6317fc85a7e1b0aa0ba492c67fe35e"
+    },
+    {
+      "source": "05_code/lga-web/src/SiteGeo.vue",
+      "target": "05_code/exportweb-web/src/SiteGeo.vue",
+      "sourceSha256": "bf6deafbd89196db4cd1a0e866186b8ea7d8e781239399a27df26991eca59488"
+    },
+    {
+      "source": "05_code/lga-web/src/SiteMenu.vue",
+      "target": "05_code/exportweb-web/src/SiteMenu.vue",
+      "sourceSha256": "32ccdeb954acd66ad4984b18f6e116c1524eb3525a712a7c4695415305d7db2d"
+    },
+    {
+      "source": "05_code/lga-web/src/Website.vue",
+      "target": "05_code/exportweb-web/src/Website.vue",
+      "sourceSha256": "7f580e5b6d8f9983e586809aaea5b5053069b5b324817504014157d7e48113fb"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteCollection.vue",
+      "target": "05_code/exportweb-web/src/WebsiteCollection.vue",
+      "sourceSha256": "fdfbca8237b636da578afbb8e58c7688b1dc511119dfa35527f2b33edc9513f9"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteContacts.vue",
+      "target": "05_code/exportweb-web/src/WebsiteContacts.vue",
+      "sourceSha256": "7095885122a0167dd15d3d80e95489c4c21d8a8147277fb83ef2f91c86f3778a"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteContentTree.vue",
+      "target": "05_code/exportweb-web/src/WebsiteContentTree.vue",
+      "sourceSha256": "621dbb71bda16f033bc8b6f3d30c270d9f6f6dd0cd988f8bbbc9537619e49a53"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteDesign.vue",
+      "target": "05_code/exportweb-web/src/WebsiteDesign.vue",
+      "sourceSha256": "43fafbaa35c825c8825843e43c16f12abe72bdbc41404a1535c6745e7284b19b"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteLabels.vue",
+      "target": "05_code/exportweb-web/src/WebsiteLabels.vue",
+      "sourceSha256": "c11c64078529d66e1e7dd8939e82a62bb115698b21d845047f27b09caf77b938"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteLanguages.vue",
+      "target": "05_code/exportweb-web/src/WebsiteLanguages.vue",
+      "sourceSha256": "9c24a99e4cc5b898360c704525e1dc0d188d0d2358d5129a8e6d959bde474635"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteList.vue",
+      "target": "05_code/exportweb-web/src/WebsiteList.vue",
+      "sourceSha256": "bd9a858bf10fd80e0669b8e8ae3fc14b81915258d666841db006514b9fa58665"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsitePreview.vue",
+      "target": "05_code/exportweb-web/src/WebsitePreview.vue",
+      "sourceSha256": "190965883fd9e6429e9e8e7c645fd47579865932b674633ab76392a29a184ac8"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteStructure.vue",
+      "target": "05_code/exportweb-web/src/WebsiteStructure.vue",
+      "sourceSha256": "0c60caf50044b1e85279aedda89a47e6569f4444917537f25191026854b74b39"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteTreeNode.vue",
+      "target": "05_code/exportweb-web/src/WebsiteTreeNode.vue",
+      "sourceSha256": "bc0d65229d46281bccc9e00dd65aef5ce5b953b58ff76ce82250822c3d249f32"
+    },
+    {
+      "source": "05_code/lga-web/src/WebsiteVersions.vue",
+      "target": "05_code/exportweb-web/src/WebsiteVersions.vue",
+      "sourceSha256": "a069a964258753faa1e4ea8d78735d20ef6e267ef7835a43b9fde0063c6ab678"
+    },
+    {
+      "source": "05_code/lga-web/src/api.ts",
+      "target": "05_code/exportweb-web/src/api.ts",
+      "sourceSha256": "4e842a6cffed8345088eb3608075f5299af89aa56d3357f5a6a246b59c680d91"
+    },
+    {
+      "source": "05_code/lga-web/src/appearance.ts",
+      "target": "05_code/exportweb-web/src/appearance.ts",
+      "sourceSha256": "45cf33d99ca62168c6f2734301557c7b327cd9257e0597b04119a2362dbac730"
+    },
+    {
+      "source": "05_code/lga-web/src/business-facts.ts",
+      "target": "05_code/exportweb-web/src/business-facts.ts",
+      "sourceSha256": "c526c86ac1d6b78108214f545331fe0ae220704161ea795377550c10b06bbf09"
+    },
+    {
+      "source": "05_code/lga-web/src/business-workspace.ts",
+      "target": "05_code/exportweb-web/src/business-workspace.ts",
+      "sourceSha256": "24b349f712ae195af9e6f36d353e7625c3067428e9757a0c9b2a174d8e02a34f"
+    },
+    {
+      "source": "05_code/lga-web/src/business.ts",
+      "target": "05_code/exportweb-web/src/business.ts",
+      "sourceSha256": "51591731a28c081ca9149cf0656fa320f6979bfcff7ad2078635a2e35335c553"
+    },
+    {
+      "source": "05_code/lga-web/src/communications.ts",
+      "target": "05_code/exportweb-web/src/communications.ts",
+      "sourceSha256": "dc2281f637582f177d312f5f422168c98270d1b69e937950ee85140703e2966f"
+    },
+    {
+      "source": "05_code/lga-web/src/customer-data.ts",
+      "target": "05_code/exportweb-web/src/customer-data.ts",
+      "sourceSha256": "4d8b1bb87d054e4752d9c1e1e3dcd8435ad1b0ee13ac44e83d47c73b288ed13f"
+    },
+    {
+      "source": "05_code/lga-web/src/detail-media.ts",
+      "target": "05_code/exportweb-web/src/detail-media.ts",
+      "sourceSha256": "79fd66002f851743f4860f91ebd04bf6f7f17e0f98946bd9859e4ebf916a4c1a"
+    },
+    {
+      "source": "05_code/lga-web/src/imported-content.ts",
+      "target": "05_code/exportweb-web/src/imported-content.ts",
+      "sourceSha256": "ff094d3345b70161431e3d9abfe3e60c5ae07ab1cf821840e309e5097b293704"
+    },
+    {
+      "source": "05_code/lga-web/src/login-session.ts",
+      "target": "05_code/exportweb-web/src/login-session.ts",
+      "sourceSha256": "f5b0b20c4c2ef9ae08e17d0531a7c60a63d9b1ab58e82e8930ad0f6dc4e511f0"
+    },
+    {
+      "source": "05_code/lga-web/src/model.ts",
+      "target": "05_code/exportweb-web/src/model.ts",
+      "sourceSha256": "ab113322c16a9554634f97d417fa12bfcad0ff324d2499d2375c1ab37b137c8e"
+    },
+    {
+      "source": "05_code/lga-web/src/navigation.ts",
+      "target": "05_code/exportweb-web/src/navigation.ts",
+      "sourceSha256": "d6c8473bd70661f1032fbd46913ef31217e6c1213dc6d9c1d19352f51b85856b"
+    },
+    {
+      "source": "05_code/lga-web/src/project-merge.ts",
+      "target": "05_code/exportweb-web/src/project-merge.ts",
+      "sourceSha256": "76d4ac80520608fb4ac1c59b612cea1976f64cb7d69b57a045c9ed68c76ab375"
+    },
+    {
+      "source": "05_code/lga-web/src/site-settings.ts",
+      "target": "05_code/exportweb-web/src/site-settings.ts",
+      "sourceSha256": "6ba3d84b69e225191a894f25483d8ebfcdbe8d19d4d654a609107f5c389c3c11"
+    },
+    {
+      "source": "05_code/lga-web/src/store.ts",
+      "target": "05_code/exportweb-web/src/store.ts",
+      "sourceSha256": "8bdf6585c5ea673fbe91f069b64cf35b1ade5a04bf1b89b16fa8cdab579e3f65"
+    },
+    {
+      "source": "05_code/lga-web/src/tasks.ts",
+      "target": "05_code/exportweb-web/src/tasks.ts",
+      "sourceSha256": "c65956ab52b9343424a28c7ea47bdbd955e522805e25456124a5696610bfeaff"
+    },
+    {
+      "source": "05_code/lga-web/src/trade-data.ts",
+      "target": "05_code/exportweb-web/src/trade-data.ts",
+      "sourceSha256": "2697621b9ed0b4309bbc7c06722a60ef80225acbc72c45164798a59abfa7f69a"
+    },
+    {
+      "source": "05_code/lga-web/src/translation-sheet.ts",
+      "target": "05_code/exportweb-web/src/translation-sheet.ts",
+      "sourceSha256": "3e6e444b45986f959f87baf28ccf2ec4a8bafab4487a67ad412dd9b6d79aaf50"
+    },
+    {
+      "source": "05_code/lga-web/src/websites.ts",
+      "target": "05_code/exportweb-web/src/websites.ts",
+      "sourceSha256": "e963c378bf41f47856c8fe51ebea8afaac1b0b6c41d87a528da55ae8e56ae5bb"
+    },
+    {
+      "source": "05_code/lga-web/src/style.css",
+      "target": "05_code/exportweb-web/src/style.css",
+      "sourceSha256": "55bc872167785c6902b012d31c79020f720a1617695bcab7b87e0b5ac39032c3"
+    },
+    {
+      "source": "05_code/lga-web/src/workspace.css",
+      "target": "05_code/exportweb-web/src/workspace.css",
+      "sourceSha256": "a2dd1d440265de8d9cd7ae0d170c60d2efaa5fd2f1e18e46baea863c690cdf65"
+    },
+    {
+      "source": "05_code/lga-web/src/website-workspace.css",
+      "target": "05_code/exportweb-web/src/website-workspace.css",
+      "sourceSha256": "b9f6ac4e0b52d0889b5de5b6ee467d82808b01713f95084af494f51191c4b4b0"
+    },
+    {
+      "source": "05_code/lga-web/src/site-view.css",
+      "target": "05_code/exportweb-web/src/site-view.css",
+      "sourceSha256": "8c967c3eb7c7fcca7f66ed99b6505a3f5127acd3cdd68a9db63385529d253538"
+    },
+    {
+      "source": "05_code/lga-web/src/site-view.js",
+      "target": "05_code/exportweb-web/src/site-view.js",
+      "sourceSha256": "a5dfc86f37d7f568dcbf75710aea0a30952152a2d947b581f90807ab980fede4"
+    },
+    {
+      "source": "05_code/lga-web/package.json",
+      "target": "05_code/exportweb-web/package.json",
+      "sourceSha256": "4e05132de43a9713ebddfc3d2d67ce1c2f1debc8321339a6cf7e5921bbd0df7c"
+    },
+    {
+      "source": "05_code/lga-web/package-lock.json",
+      "target": "05_code/exportweb-web/package-lock.json",
+      "sourceSha256": "84c4e282e68b32a3946038c1df5f3ba53522fa1be7e96386f15860d1a89d98bc"
+    },
+    {
+      "source": "05_code/lga-web/tsconfig.json",
+      "target": "05_code/exportweb-web/tsconfig.json",
+      "sourceSha256": "24598466006c2e6bda0a5a412dd341fb9b5f4297c7c49e53d27b824ddc320ca8"
+    },
+    {
+      "source": "05_code/lga-web/vite.config.ts",
+      "target": "05_code/exportweb-web/vite.config.ts",
+      "sourceSha256": "9a4104353f43ab6d736e4c61e6a9d3de3bc734e05951ff779a8165e38cee3471"
+    },
+    {
+      "source": "05_code/lga-web/index.html",
+      "target": "05_code/exportweb-web/index.html",
+      "sourceSha256": "123092783e72f7ae276b6601875e19ebbfde431926218455dcd9556684768f27"
+    },
+    {
+      "source": "05_code/lga-web/tools/prepare.mjs",
+      "target": "05_code/exportweb-web/tools/prepare.mjs",
+      "sourceSha256": "8cdb5fe4da5a97feb7da9a13196cf70a361dd09b6ece058e17656818d926330b"
+    },
+    {
+      "source": "05_code/lga-web/tools/prepare-workspace-styles.mjs",
+      "target": "05_code/exportweb-web/tools/prepare-workspace-styles.mjs",
+      "sourceSha256": "17685f36e131d3a9443d23e7b4ec8da5d87125f6b26a429defc001f6086357d4"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/market-regions.js",
+      "target": "03_design/ux/prototype/ai-acquisition/market-regions.js",
+      "sourceSha256": "f8821b15b74a0b5122038fe5a0acfdf19b4c80bc20385b55c0ede17cf8aa5445"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/content-layouts.js",
+      "target": "03_design/ux/prototype/ai-acquisition/content-layouts.js",
+      "sourceSha256": "c584fe89cf8158f74c64ba4b1384c7b1467ae8444587770c245667ed08975d9e"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/site-languages.js",
+      "target": "03_design/ux/prototype/ai-acquisition/site-languages.js",
+      "sourceSha256": "909612d647888c64fed43cc7f984fd2d6e928c0bdb3000aef6f3a432c6091965"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/market-languages.js",
+      "target": "03_design/ux/prototype/ai-acquisition/market-languages.js",
+      "sourceSha256": "8d4796142fbe4bf20623274e23d506c83b731c6d4dd389f7b80d099d2f298305"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/rich-content.js",
+      "target": "03_design/ux/prototype/ai-acquisition/rich-content.js",
+      "sourceSha256": "a36b29ca32e02ff7a3777488c867abcd44d0d9e59bef367edd29b8945fbdcb15"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/search.js",
+      "target": "03_design/ux/prototype/ai-acquisition/search.js",
+      "sourceSha256": "19dde3cf8e133646865eb0272919ba12770cb540bbd9d399fad495bd562db44f"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/search-index.js",
+      "target": "03_design/ux/prototype/ai-acquisition/search-index.js",
+      "sourceSha256": "dffd35e3948be1d3cd41fb75a34261625cdd6edac2278deeef9f581330d6c948"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/site-design.js",
+      "target": "03_design/ux/prototype/ai-acquisition/site-design.js",
+      "sourceSha256": "7649f9c73baab84708d9955de5bee738624b601cb6d85f66dc5d91eec0fd1aee"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/self-website-view.js",
+      "target": "03_design/ux/prototype/ai-acquisition/self-website-view.js",
+      "sourceSha256": "d82119bb1d208a2ef572234a6ef813f65aee9697f14fa1d6ec4ca0798909e1e6"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/business.js",
+      "target": "03_design/ux/prototype/ai-acquisition/business.js",
+      "sourceSha256": "3e845721f5262bc4edad09a545f07b3a7c7f109fdcf3e7fcc03d50a90ea9697c"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/sitemap-view.js",
+      "target": "03_design/ux/prototype/ai-acquisition/sitemap-view.js",
+      "sourceSha256": "f585b1f202e7f139a9c2f5221170bb69ec047907d16a00dc0cd9b8d30e10eeb0"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/self-website.js",
+      "target": "03_design/ux/prototype/ai-acquisition/self-website.js",
+      "sourceSha256": "a17c3175f3eb2941ea8de6c3ab6a51d4530d9015e6a0b458916cb7218e2e3057"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/site-communications.js",
+      "target": "03_design/ux/prototype/ai-acquisition/site-communications.js",
+      "sourceSha256": "fea55012e126d49189803927889b348772fb0f7129fe87dd01b26292f2c410f2"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/i18n.js",
+      "target": "03_design/ux/prototype/ai-acquisition/i18n.js",
+      "sourceSha256": "ba322a6da72d97e1757f713430ad3cb5972bcf6f330117da9469b658333c52e6"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/ui-en.js",
+      "target": "03_design/ux/prototype/ai-acquisition/ui-en.js",
+      "sourceSha256": "4a815c3a1f3a5413d87e3daca556b7a8bba3a40b0c36c84dc60b7e6d6aa0bc33"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/core.js",
+      "target": "03_design/ux/prototype/ai-acquisition/core.js",
+      "sourceSha256": "3b6209c47e506a6eee56f2e7e3c7c01008ac087f5bdab4e8017242250cbbb424"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/site-articles.js",
+      "target": "03_design/ux/prototype/ai-acquisition/site-articles.js",
+      "sourceSha256": "2b004080d5aaa4debeeb0c9b5dedb1503088d7353f83dd23d205ff8ea43ab026"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/customer-view.js",
+      "target": "03_design/ux/prototype/ai-acquisition/customer-view.js",
+      "sourceSha256": "6fcb262cc8620cf84ee919f67afcf31ffc4261db2ccdb37f139da84ac4481c2f"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/site-geo.js",
+      "target": "03_design/ux/prototype/ai-acquisition/site-geo.js",
+      "sourceSha256": "9860f64dd100d87df95fc29cc88e1cdf45f82a88b8be86acf2c1774eeffde7ff"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/insights.js",
+      "target": "03_design/ux/prototype/ai-acquisition/insights.js",
+      "sourceSha256": "8a02980247c014a6b32096110df1f2f9a0ddb55fe1159a326474db40af7bdf48"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/acquisition.js",
+      "target": "03_design/ux/prototype/ai-acquisition/acquisition.js",
+      "sourceSha256": "31cd0f84d56ea5d6de07dd1fcd68d6de4fd65c019503b5ff947c5fd26c282255"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/site-translation.js",
+      "target": "03_design/ux/prototype/ai-acquisition/site-translation.js",
+      "sourceSha256": "0f470358e4cf1ed4a920f2ee8a28301cd5bfba69dae3448ef4df2cec5488041f"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/market-advice.js",
+      "target": "03_design/ux/prototype/ai-acquisition/market-advice.js",
+      "sourceSha256": "8e695055844a00721d7954d092a50e6e4870aaf2a32e9ea19b436807b6f118ca"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/prospecting.js",
+      "target": "03_design/ux/prototype/ai-acquisition/prospecting.js",
+      "sourceSha256": "9daefbf75fcf3d92587f77bf4d923e80ef6b13912a873dcaab2278da6ec00113"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/social-media.js",
+      "target": "03_design/ux/prototype/ai-acquisition/social-media.js",
+      "sourceSha256": "a4fb8b8573a542854e188e18151a953e370bc98856121cf7b802bd3096a5fabf"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/growth.js",
+      "target": "03_design/ux/prototype/ai-acquisition/growth.js",
+      "sourceSha256": "767e98c5a367d6d01eed59c4facc574a72d3cf626449106796ea1d81eb547d02"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/sitemap-catalog.js",
+      "target": "03_design/ux/prototype/ai-acquisition/sitemap-catalog.js",
+      "sourceSha256": "463cb4f41e1555593f50182c813587f4df93d75720d88a36c1a58d11accb7d98"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/fixtures.js",
+      "target": "03_design/ux/prototype/ai-acquisition/fixtures.js",
+      "sourceSha256": "158fd3e3e4ca840051c75d8339246a7dc6bb0fba2d13c096e68ecbcc8d544a3a"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/detail-content.js",
+      "target": "03_design/ux/prototype/ai-acquisition/detail-content.js",
+      "sourceSha256": "d2f3e63197e098eddb087a02a9be915b29192a573083654cc1e4eb492a5c1c38"
+    },
+    {
+      "source": "03_design/ux/site-catalog/presentation.js",
+      "target": "03_design/ux/site-catalog/presentation.js",
+      "sourceSha256": "3eba6604550aaef19fea0ba4df18bea07df8539309770e0d5e73b7fe7a356a05"
+    },
+    {
+      "source": "03_design/ux/site-catalog/catalog.js",
+      "target": "03_design/ux/site-catalog/catalog.js",
+      "sourceSha256": "8ac6507b19ad52cfe96c065b83dc9387d74d1cb812e5ce9884e8730ed0ad3994"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/style.css",
+      "target": "03_design/ux/prototype/ai-acquisition/style.css",
+      "sourceSha256": "37085807165a52f617884ca39b4da368907d080a29f0f7f77a4fd4f9ab7b5ac9"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/theme.css",
+      "target": "03_design/ux/prototype/ai-acquisition/theme.css",
+      "sourceSha256": "61e43781ca1ff52237b269df17f62fe867d4882f70a531eeff7d4e55c41d8a56"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/growth.css",
+      "target": "03_design/ux/prototype/ai-acquisition/growth.css",
+      "sourceSha256": "a46df410bde196962fa77ece0afce1b120d2f246c0e718f65ebfd4882660d642"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/prospecting.css",
+      "target": "03_design/ux/prototype/ai-acquisition/prospecting.css",
+      "sourceSha256": "9e72af54ab65e7b98897aa68510d34a6bab06bc5d922443fce0357ca1af4ba21"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/design.css",
+      "target": "03_design/ux/prototype/ai-acquisition/design.css",
+      "sourceSha256": "e1eaf66187eed1bc4b6290fe954005f55c484c2564da7ee0f28143ca52fef4aa"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/detail-studio.css",
+      "target": "03_design/ux/prototype/ai-acquisition/detail-studio.css",
+      "sourceSha256": "2ac8ffbaf5a42c336dd3c67e72be895f2bf4e51f9337846eb021c7912c467e86"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/business.css",
+      "target": "03_design/ux/prototype/ai-acquisition/business.css",
+      "sourceSha256": "1336912307238b5f9861568c1a3e538598ef85f5bd72b00716695d46ec19db9a"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/self-website.css",
+      "target": "03_design/ux/prototype/ai-acquisition/self-website.css",
+      "sourceSha256": "7657abeaf22e1c719659044917d147f90c05a1b96edde5ff8d8be22a259d1563"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/insights.css",
+      "target": "03_design/ux/prototype/ai-acquisition/insights.css",
+      "sourceSha256": "a8e3b37377515d07ac0a906f7a2fb5e561b6b40c2b17d20a865c7aecf0f67ef2"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/acquisition.css",
+      "target": "03_design/ux/prototype/ai-acquisition/acquisition.css",
+      "sourceSha256": "0c2079178b59137fbca89b8686002962d93e962952dd0f8402d90edd238eef46"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/brand/logo-mark.png",
+      "target": "03_design/ux/prototype/ai-acquisition/brand/logo-mark.png",
+      "sourceSha256": "ae8785b53bd3dcae4a46d156f1b90c9605b85208ec39d1dd3ee1cf91080fc502"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/brand/logo-mark.svg",
+      "target": "03_design/ux/prototype/ai-acquisition/brand/logo-mark.svg",
+      "sourceSha256": "6d2524f8e9753f352e729d66fc00ba6dff4ab83ccb13ffc9616a764b859f4569"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/brand/logo-on-dark.svg",
+      "target": "03_design/ux/prototype/ai-acquisition/brand/logo-on-dark.svg",
+      "sourceSha256": "95411c8c1e9f8cf772a87a2cb45e754e63fa58558169c9acca164f2a5cc5e59a"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/brand/logo-on-light.svg",
+      "target": "03_design/ux/prototype/ai-acquisition/brand/logo-on-light.svg",
+      "sourceSha256": "a0c675defc14aea9c054b988521cae4cc4647f09543a8493be4cb7a67f60cd65"
+    },
+    {
+      "source": "03_design/ux/prototype/ai-acquisition/brand/logo-symbol.svg",
+      "target": "03_design/ux/prototype/ai-acquisition/brand/logo-symbol.svg",
+      "sourceSha256": "361dbb6b551fd9bf253192cab45ab279286f7a4a048cb573ba533effa9ba10a7"
+    }
+  ]
+}

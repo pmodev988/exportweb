@@ -1,0 +1,19 @@
+[Unit]
+Description=ExportWeb asynchronous website and company tasks
+After=network-online.target
+Wants=network-online.target
+[Service]
+User=exportweb
+Group=exportweb
+WorkingDirectory=/opt/exportweb
+EnvironmentFile=/etc/exportweb/runtime.env
+ExecStart=/usr/bin/java -jar /opt/exportweb/exportweb-api-0.1.0.jar --spring.profiles.active=worker
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+UMask=0077
+[Install]
+WantedBy=multi-user.target

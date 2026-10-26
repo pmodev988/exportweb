@@ -1,0 +1,12 @@
+{
+  "company":{"name":"示例设备公司","product":"金属加工设备","strength":"按图定制","excluded":"","description":"设备与应用资料","markets":["CN","US"]},
+  "plan":"","theme":"T04","languages":["zh-Hans"],"sourceLanguage":"zh-Hans","design":{"pageMode":"multi","motion":"static"},
+  "pages":[
+    {"id":"hero","parent":"","title":"首页","path":"/","content":{"zh-Hans":{"title":"示例设备公司","html":"<p>按项目需求提供设备资料。</p>"}}},
+    {"id":"products","parent":"","title":"产品","path":"/products/","content":{"zh-Hans":{"title":"产品系列","html":"<p>查看各类设备与规格。</p>"}}},
+    {"id":"press","parent":"products","title":"折弯机","path":"/press/","content":{"zh-Hans":{"title":"折弯机","html":"<h2>精密金属加工</h2><p>适用于钣金成形。请核对具体型号与加工要求。</p><figure><img src='/api/v1/assets/sample.svg' alt='设备示意图'></figure><h2>设备参数</h2><table><thead><tr><th>项目</th><th>说明</th></tr></thead><tbody><tr><td>应用</td><td>钣金成形</td></tr><tr><td>配置</td><td>按实际项目确认</td></tr></tbody></table><p><a href='/api/v1/preview?locale=zh-Hans&amp;page=laser'>查看激光设备</a></p>"}}},
+    {"id":"laser","parent":"products","title":"激光设备","path":"/laser/","content":{"zh-Hans":{"title":"激光设备","html":"<h2>加工说明</h2><p>材料与参数以确认资料为准。</p>"}}},
+    {"id":"footer-products","parent":"","title":"产品导航","path":"/footer-products/","navPlacement":"footer","footerExpanded":true,"content":{"zh-Hans":{"title":"产品导航","html":"<p>产品资料入口。</p>"}}},
+    {"id":"contact","parent":"footer-products","title":"联系","path":"/contact/","navPlacement":"footer","content":{"zh-Hans":{"title":"联系","html":"<p>请提供设备需求。</p>"}}}
+  ]
+}

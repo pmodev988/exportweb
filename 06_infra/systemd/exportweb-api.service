@@ -1,0 +1,19 @@
+[Unit]
+Description=ExportWeb business API and published websites
+After=network-online.target
+Wants=network-online.target
+[Service]
+User=exportweb
+Group=exportweb
+WorkingDirectory=/opt/exportweb
+EnvironmentFile=/etc/exportweb/runtime.env
+ExecStart=/usr/bin/java -jar /opt/exportweb/exportweb-api-0.1.0.jar
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+UMask=0077
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-27",
+  "sourceBaseline": "8f3c988fbecc8fb8051fbbf3652a11fbccce1dfb",
+  "artifact": {
+    "path": "C:\\098_pmo\\06ExportWeb\\21_client\\exportweb-api-0.1.0.jar",
+    "version": "0.1.0",
+    "bytes": 63282598,
+    "sha256": "5b3c8d141c836bcf5b3b9d88b5de2cf87701e08fe519e97b833660ca68f5bd0f"
+  },
+  "suites": [
+    {
+      "suite": "dev.pmo.exportweb.AccessReasonTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "f4b15f146f49e18e953685eeb5a00c988dd3e1a20e0f67b6fd80b1dfd8029493"
+    },
+    {
+      "suite": "dev.pmo.exportweb.AiTranslationTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "1ca5918603c38c55911d691f9e103ad160f399f0613a6334607b2e2447529f4d"
+    },
+    {
+      "suite": "dev.pmo.exportweb.BusinessSecurityTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "2d237c66cc66d8bad3dd6ec4592eaf1c297eb9ac6449482abf01e4c2cfe36c5f"
+    },
+    {
+      "suite": "dev.pmo.exportweb.ImportedContentTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "d89daaaabe41c6014b382602c0e687150c7d7e6d7a78dc2d34f679125b30b3ae"
+    },
+    {
+      "suite": "dev.pmo.exportweb.LoginCallbackTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "260a22427a2c82fdcacf900d4481a9f8fb58aff1c383b172d3088029eaafd657"
+    },
+    {
+      "suite": "dev.pmo.exportweb.MediaConfigurationTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "e87fb777847dfb2e1c78480ce885443592aa252df77e3d51d9421661d84df94b"
+    },
+    {
+      "suite": "dev.pmo.exportweb.MenuCommunicationsTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "19676fa0a9f5e515e884e09a6de4321a7ad6fc5851eb2357905a598d58746ef1"
+    },
+    {
+      "suite": "dev.pmo.exportweb.NumericProductTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "758b05576fe25f0cb83311ad44bf7d4167b5725600c430eb689e5dbd5809ed8f"
+    },
+    {
+      "suite": "dev.pmo.exportweb.PersistenceTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 1,
+      "xmlSha256": "16de2b871dd99c901e0d7f3c1bd07b107a66c84d40a909df06d771ba5050f6cf"
+    },
+    {
+      "suite": "dev.pmo.exportweb.ProductBoundaryTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "5378c5ea3254f04ba9adaa54c8d20fd799d7b8a3bd41758c078dbc7d91a6ca3d"
+    },
+    {
+      "suite": "dev.pmo.exportweb.ProjectTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "5df5e2004a1a3e07f20eae511c4ac05bee5051aa26aaf029294e539113bb132b"
+    },
+    {
+      "suite": "dev.pmo.exportweb.PublicationMigrationTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "a46bff1428b1af428e68c31ef1d85cf5108b8cb9698302abd9474cf91c6f48db"
+    },
+    {
+      "suite": "dev.pmo.exportweb.QueueConfigurationTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "3d13fdfdd1ac7cd5f0b1c0425582bdf3d6ecddbbf0e8af99d3d62aaca379cd3b"
+    },
+    {
+      "suite": "dev.pmo.exportweb.SiteLabelsTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "a170ea69c92cd568b27bc78efc7c92880038342a114ac082f34cb7e52be0506e"
+    },
+    {
+      "suite": "dev.pmo.exportweb.WebsiteImportTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "0a37f8eaff463f24159734daf505b3e09d59201f7694f36b76cdae3525e0c32f"
+    },
+    {
+      "suite": "dev.pmo.exportweb.WebsiteNavigationTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "bbdb9cc43fa43c6d32f9ec8af85203dfea035fd91ac4d351de551d54f019bf66"
+    },
+    {
+      "suite": "dev.pmo.exportweb.WebsitePackageTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "ceecc29662918ff149d56e8276875dc47997bf918a7e7c2437965f9fd01ce85d"
+    },
+    {
+      "suite": "dev.pmo.exportweb.WebsitesTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "xmlSha256": "9d02d8639f08e4043c3cccaf59f417a9aa04ee042567f655db693d0061d4728d"
+    }
+  ],
+  "webAssets": {
+    "count": 24,
+    "missing": [],
+    "extra": [],
+    "mismatched": []
+  },
+  "migrations": {
+    "db/migration/V1__exportweb_business.sql": "261574b0acc10230fdfaeb19e3d7d73b1849b7067e8f9a213c60c8f3a76a75c9",
+    "db/migration/V2__exportweb_tasks.sql": "cb042abafa2cc2b44cb6a094b8e35254fb61c56900f1940d765033d7dceeea9c",
+    "db/migration/V3__multiple_website_publications.sql": "4febfd442c12d445a534aa7f0fb67587df61f513e2bbc25af5a6277001b15c11",
+    "db/migration/V4__website_versions_and_named_media.sql": "12025c7e1ca741477d48e5a7ba23c7d894f61b51e27b5d3794c998bafcef609c",
+    "db/migration/V5__article_jobs.sql": "6f7f977bc5559c6bccae049ba369a90f580c37c411d7bb862910f38efce33ffb",
+    "db/migration/V6__website_inquiries.sql": "9a042e7a48fecf619a000be1c0192a0b3f2fa239e0e86945570be9d85a5268cb"
+  },
+  "frontEnd": {
+    "files": 11,
+    "passed": 52
+  }
+}

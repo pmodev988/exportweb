@@ -1,0 +1,14 @@
+{
+  "name": "@billion/shared-experience",
+  "version": "1.1.0",
+  "source": "99rls/10_reports/assets/billion-ui-v1 (1.1.0-design.1), 43ce067; user approved 2026-10-09; text normalized to LF",
+  "files": {
+    "billion-components.css": "d73e19e09136105c46826730c03e8f71309e3a68452917df69d0d7e789386197",
+    "billion-logo.png": "805c160c46928179ccfe275bc3a0e039f00269b9d4001a6202fd3ead339824de",
+    "billion-resolved-tokens.json": "e2ff0253310467c2db2d0c66639cfb58269a91fb4590f0bd21e5c1697007c270",
+    "billion-tokens.css": "a269b39c5bd9e9e036ce14928d7eb0435a6d76b7d436545672c1d0964a006b39",
+    "billion-tokens.json": "09bf0a7ae4d5ae1e96310f1ded33349937cc061813b53f3fbaf26c217ca9381e",
+    "billion-ui.css": "537b608e5ee313665e1aec310c6833a80d70a1bf2df17b7f703ee890f5c575d1",
+    "generate-theme.py": "b2fb7bb424fc06d4b81b8b76af01df285fac15dc8937554598198d5f20f3b1e5"
+  }
+}
