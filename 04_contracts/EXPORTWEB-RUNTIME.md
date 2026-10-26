@@ -22,7 +22,17 @@ API `exportweb-api.service`，worker `exportweb-worker.service`，均使用 `exp
 
 ## 域名
 
-`web.export.pmo.dev` 为独立站宣传网站，`ai.export.pmo.dev` 为 LGA 宣传网站。二者不是客户工作台或客户网站域名。302 的共享运行入口、组织精确域名、证书和回调由 OPS 指派及 RLS 接入；具体生产运行域名待登记，不猜测 URL、不硬编码跳转。
+2026-10-27 用户最终确认：
+
+| 地址 | 用途 |
+|---|---|
+| `l3.pmo.dev` | 302 / export-web 独立建站服务，工作台路径 `/workspace/` |
+| `web.export.pmo.dev` | 独立站宣传网站 |
+| `ai.export.pmo.dev` | LGA 宣传网站 |
+
+OPS Identity V49 将 302 的目录名称更新为 export-web、默认子域名更新为 l3，服务类型为服务、计费方式为月租和用量、是否投产及支持 AIRouter 标记为是。目录保存子域名标签；默认根域名 pmo.dev 对应完整运行地址 l3.pmo.dev。
+
+302 的共享运行入口 `l3.pmo.dev`、组织精确域名、证书和 OIDC 回调 `https://l3.pmo.dev/login/oauth2/code/exportweb` 由 OPS 平台指派及 RLS 接入。两个宣传域名不绑定为工作台或客户网站。目录默认值与投产标记不代表域名已指派或已部署，不自动授予服务商、组织或会员权益；运行端继续使用 OPS 下发的实际入口，不硬编码跳转。
 
 ## 发布前门禁
 
